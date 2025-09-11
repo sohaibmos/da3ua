@@ -1,46 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sohaib profile</title>
+    <meta name="description" content="DA3UA - Professional digital solutions for web development, mobile apps, and digital marketing. Transform your ideas into digital excellence.">
+    <meta name="keywords" content="digital solutions, web development, mobile apps, UI/UX design, digital marketing">
+    <meta name="author" content="DA3UA">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://da3ua.com">
+    <meta property="og:title" content="DA3UA - Creative Digital Solutions">
+    <meta property="og:description" content="Transform your ideas into digital excellence with our professional web development, mobile apps, and digital marketing solutions.">
+    <meta property="og:image" content="https://da3ua.com/asset/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://da3ua.com">
+    <meta name="twitter:title" content="DA3UA - Creative Digital Solutions">
+    <meta name="twitter:description" content="Transform your ideas into digital excellence with our professional digital solutions.">
+    <meta name="twitter:image" content="https://da3ua.com/asset/images/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="asset/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="asset/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="asset/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/images/favicon-16x16.png">
+
+    <title>DA3UA - Creative Digital Solutions</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="asset/styles.css">
 </head>
-<section class="hero">
-    <div class="hero-content">
-        <h1>Creative.<br>Innovative.<br>Professional.</h1>
-        <p>Transforming ideas into digital excellence</p>
-        <div class="cta-container">
-            <a href="contact.html" class="cta-button">Start Project</a>
-            <a href="requests.html" class="cta-link">View Work →</a>
-        </div>
-    </div>
-</section>
-</nav>
-<!-- Removed duplicate <nav> section -->
-<link rel="stylesheet" href="asset/styles.css">
-</head>
 
 <body>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="nav-container">
+            <a href="index.html" class="logo">DA3UA</a>
+            <button class="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="requests.html">Requests</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="privacy-policy.html">Privacy</a></li>
+                <li><a href="terms-of-service.html">Terms</a></li>
+            </ul>
+        </div>
     </nav>
-    <section class="hero" id="hero">
-        <div class="overlay"></div>
+
+    <section class="hero">
         <div class="hero-content">
-            <h1>Welcome to sohaib's prtofoly</h1>
-            <p>Dynamic background images with clean overlay and smooth transitions.</p>
-            <button>Get Started</button>
+            <h1>Creative.<br>Innovative.<br>Professional.</h1>
+            <p>Transforming ideas into digital excellence</p>
+            <div class="cta-container">
+                <a href="contact.html" class="cta-button">Start Project</a>
+                <a href="requests.html" class="cta-link">View Work →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="section-container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with modern technologies</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Apps</h3>
+                    <p>Native and cross-platform mobile applications for iOS and Android</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design solutions that enhance user experience</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategic marketing solutions to grow your online presence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-projects">
+        <div class="section-container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-status completed">Completed</div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>Full-stack online shopping solution with payment integration</p>
+                    <div class="project-meta">
+                        <span><i class="fas fa-tag"></i> Web Development</span>
+                        <span><i class="fas fa-clock"></i> 3 months</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-status in-progress">In Progress</div>
+                    <h3>Fitness App</h3>
+                    <p>Mobile application for workout tracking and nutrition planning</p>
+                    <div class="project-meta">
+                        <span><i class="fas fa-tag"></i> Mobile Development</span>
+                        <span><i class="fas fa-clock"></i> 2 months</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-status pending">Coming Soon</div>
+                    <h3>AI Dashboard</h3>
+                    <p>Analytics dashboard with machine learning integration</p>
+                    <div class="project-meta">
+                        <span><i class="fas fa-tag"></i> Data Science</span>
+                        <span><i class="fas fa-clock"></i> Planning Phase</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="requests.html" class="cta-button">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-us">
+        <div class="section-container">
+            <h2>Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>Quick turnaround times without compromising quality</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure Solutions</h3>
+                    <p>Built with security best practices in mind</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-sync"></i>
+                    <h3>Regular Updates</h3>
+                    <p>Continuous support and maintenance</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-comments"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Always available to help you succeed</p>
+                </div>
+            </div>
         </div>
     </section>
 

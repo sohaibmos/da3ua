@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /asset/
+Sitemap: https://da3ua.com/sitemap.xml

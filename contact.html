@@ -13,69 +13,115 @@
 
 <body>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="nav-container">
+            <a href="index.html" class="logo">DA3UA</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="requests.html">Requests</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
     </nav>
+
+    <section class="contact-hero">
+        <div class="contact-hero-content">
+            <h1>Let's Create Something Amazing Together</h1>
+            <p>Turn your vision into reality with our expert team</p>
+        </div>
+    </section>
 
     <section class="contact-section">
         <div class="contact-container">
             <div class="contact-info">
-                <h2>Get in Touch</h2>
-                <p>Have a question or want to work together? Drop us a message!</p>
+                <div class="info-header">
+                    <h2>Get in Touch</h2>
+                    <p>Ready to start your project? We're here to help bring your ideas to life.</p>
+                </div>
 
-                <div class="info-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div>
-                        <h3>Location</h3>
-                        <p>123 Street, City, Country</p>
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Visit Us</h3>
+                            <p>123 Innovation Hub</p>
+                            <p>Tech District, City</p>
+                            <p>Country, 12345</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Email Us</h3>
+                            <p>info@da3ua.com</p>
+                            <p>support@da3ua.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="card-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Call Us</h3>
+                            <p>+1 (234) 567-890</p>
+                            <p>Mon - Fri, 9am - 6pm</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="info-item">
-                    <i class="fas fa-envelope"></i>
-                    <div>
-                        <h3>Email</h3>
-                        <p>info@example.com</p>
+                <div class="social-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
                     </div>
-                </div>
-
-                <div class="info-item">
-                    <i class="fas fa-phone"></i>
-                    <div>
-                        <h3>Phone</h3>
-                        <p>+1 234 567 890</p>
-                    </div>
-                </div>
-
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
 
-            <div class="contact-form">
-                <form id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" required placeholder="Your Name">
+            <div class="contact-form-container">
+                <form id="contactForm" class="contact-form">
+                    <h2>Send Message</h2>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
                     </div>
                     <div class="form-group">
-                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" id="subject" name="subject" required placeholder="Subject">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required rows="6"></textarea>
                     </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                    <div class="form-footer">
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
                     </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
                 </form>
             </div>
+        </div>
+    </section>
+
+    <section class="contact-cta">
+        <div class="cta-content">
+            <h2>Need a Quick Response?</h2>
+            <p>Schedule a free consultation call with our experts</p>
+            <a href="#" class="cta-button">Schedule Call <i class="fas fa-arrow-right"></i></a>
         </div>
     </section>
 
